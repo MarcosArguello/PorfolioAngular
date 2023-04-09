@@ -10,6 +10,14 @@ li {
     flex: 1 1 auto;
   }
 
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
 h3 {
     margin-top: 20px;
 }
