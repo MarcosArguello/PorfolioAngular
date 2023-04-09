@@ -3,5 +3,40 @@
         {
             "name": "Soy Marcos Argüello.",
             "description": "Un diseñador y programador full stack developer Jr altamente proactivo, me encantan los desafíos y explorar soluciones. Puedo trabajar bien solo, pero considero que los mejores resultados se logran abordando un problema desde la visión de diferentes disciplinas, siempre tratando de innovar sin dejar de considerar los objetivos de negocio.",
-            "backImage": "src/images/marcos-arguello.png"
+            "backImage": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/marcos-arguello.png?raw=true"
+        },
+    "experience":[
+        {
+            "company": "Full Stack Developer Jr",
+            "start": "2022",
+            "end": "Actualidad",
+            "position": "FREELANCE",
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true",
+            "about": "Diseño y programación de WebApp."
+        },
+        {
+            "company": "OFICIO impresiones digitales",
+            "start": "2018",
+            "end": "Actualidad",
+            "position": "FREELANCE",
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true",
+            "about": "Gestión de proyectos, diseño grafico, diseño 3D, cómputo, presupuesto, mantenimiento de equipos y tareas relacionadas a la impresión digital."
+        },
+        {
+            "company": "Municipalidad de la Ciudad de Santa Fe",
+            "start": "2016",
+            "end": "2018",
+            "position": "DISEÑADOR INDUSTRIAL",
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true",
+            "about": "Investigación, diseño, computo, presupuesto, desarrollo y ejecución de mobiliario y afines para el departamento de mobiliario urbano. Logística y supervisión de personal y obras."
+        },
+        {
+            "company": "Dibujante técnico / Modelador 3D",
+            "start": "2006",
+            "end": "Actualidad",
+            "position": "FREELANCE",
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true",
+            "about": "Digitalización de planos, elaboración de modelos 3D y simulaciones físicas."
+        }
+    ]
 }
