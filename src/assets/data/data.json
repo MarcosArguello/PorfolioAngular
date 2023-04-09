@@ -5,9 +5,11 @@
             "description": "Un diseñador y programador full stack developer Jr altamente proactivo, me encantan los desafíos y explorar soluciones. Puedo trabajar bien solo, pero considero que los mejores resultados se logran abordando un problema desde la visión de diferentes disciplinas, siempre tratando de innovar sin dejar de considerar los objetivos de negocio.",
             "backImage": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/marcos-arguello.png?raw=true"
         },
+
+
     "experience":[
         {
-            "company": "Full Stack Developer Jr",
+            "company": "Full Stack Developer Jr.",
             "start": "2022",
             "end": "Actualidad",
             "position": "FREELANCE",
@@ -15,7 +17,7 @@
             "about": "Diseño y programación de WebApp."
         },
         {
-            "company": "OFICIO impresiones digitales",
+            "company": "OFICIO impresiones digitales.",
             "start": "2018",
             "end": "Actualidad",
             "position": "FREELANCE",
@@ -23,7 +25,7 @@
             "about": "Gestión de proyectos, diseño grafico, diseño 3D, cómputo, presupuesto, mantenimiento de equipos y tareas relacionadas a la impresión digital."
         },
         {
-            "company": "Municipalidad de la Ciudad de Santa Fe",
+            "company": "Municipalidad de la Ciudad de Santa Fe.",
             "start": "2016",
             "end": "2018",
             "position": "DISEÑADOR INDUSTRIAL",
@@ -31,12 +33,213 @@
             "about": "Investigación, diseño, computo, presupuesto, desarrollo y ejecución de mobiliario y afines para el departamento de mobiliario urbano. Logística y supervisión de personal y obras."
         },
         {
-            "company": "Dibujante técnico / Modelador 3D",
+            "company": "Dibujante técnico / Modelador 3D.",
             "start": "2006",
             "end": "Actualidad",
             "position": "FREELANCE",
             "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true",
             "about": "Digitalización de planos, elaboración de modelos 3D y simulaciones físicas."
         }
+    ],
+
+
+    "education":[
+        {
+            "title": "Desarrollador Web Full Stack.",
+            "company": "Argentina 4.0 - INTI / Ministerio de Economía de la Nación.",
+            "start": "2022",
+            "end": "2023",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Desarrollador Web.",
+            "company": "Google Actívate.",
+            "start": "2022",
+            "end": "2022",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Licenciado en Diseño Industrial.",
+            "company": "Universidad Nacional del Litoral.",
+            "start": "2013",
+            "end": "2019",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Técnico Constructor Nacional.",
+            "company": "Escuela Industrial Superior - Universidad Nacional del Litoral",
+            "start": "2000",
+            "end": "2005",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        }
+       
+    ],
+
+    "skills":[
+        {
+            "skillArea":"Diseño 2D",
+            "areas":
+                [
+                    {
+                        "area":"Ilustrator",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Photoshop",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Indesign",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"CorelDraw",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"AutoCad",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        },
+
+        {
+            "skillArea":"Diseño 3D",
+            "areas":
+                [
+                    {
+                        "area":"SolidWorks",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"SketchUp",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Rhinoceros",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Fusion360",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        },
+            
+        {
+            "skillArea":"Office",
+            "areas":
+                [
+                    {
+                        "area":"Word",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Excel",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Powerpoint",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        },  
+        
+        {
+            "skillArea":"Renderizado",
+            "areas":
+                [
+                    {
+                        "area":"KeyShot",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Lumion",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"D5 Render",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        },
+
+        {
+            "skillArea":"Programación",
+            "areas":
+                [
+                    {
+                        "area":"Visual Studio Code",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Arduino",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Bootstrap",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Angular",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        },
+
+        {
+            "skillArea":"Impresión 3D",
+            "areas":
+                [
+                    {
+                        "area":"Simplify 3D",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Cura Slicer",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Prusa Slicer",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        },
+
+        {
+            "skillArea":"Web",
+            "areas":
+                [
+                    {
+                        "area":"Google Chrome",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Google Drive",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Gmail",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Google Sheets",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Google Docs",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    },
+                    {
+                        "area":"Chrome Remote Desktop",
+                        "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+                    }
+                ]
+        }
+     
     ]
 }

@@ -1,7 +1,10 @@
 <!-- Experiencia Laboral -->
 <div class="container">
 <hr class="featurette-divider">
-      <h2>Experiencia Laboral</h2>
+      <h2>Experiencia Laboral
+        
+      </h2>
+
 <hr class="hr-subdivider">
  
 <ul>
@@ -9,12 +12,12 @@
 
         <div class="row featurette">
             <div class="col-md-10 order-md-2">
-                <h3 class="featurette-heading fw-normal lh-1">{{experiencia.company}}. <br></h3>
-                    <span class="text-muted">{{experiencia.start}}-{{experiencia.end}}. {{experiencia.position}}.</span>
+                <h3 class="featurette-heading fw-normal lh-1">{{experiencia.company}} <br></h3>
+                    <span class="text-muted">{{experiencia.start}} - {{experiencia.end}} / {{experiencia.position}}</span>
                     <p class="lead fw-normal">{{experiencia.about}}</p>
             </div>
             <div class="col-md-2 order-md-1">
-                <img [src]="experiencia.img" alt="{{experiencia.position}}" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" preserveAspectRatio="xMidYMid slice">
+                <img [src]="experiencia.img" alt="{{experiencia.company}}" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" preserveAspectRatio="xMidYMid slice">
             </div>
         </div>
         <hr class="hr-subdivider">
