@@ -1,0 +1,10 @@
+.containerProject {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box-skill {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: stretch;
+  }

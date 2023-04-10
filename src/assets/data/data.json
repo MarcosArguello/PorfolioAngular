@@ -241,5 +241,56 @@
                 ]
         }
      
+    ],
+
+    "projects":[
+        {
+            "title": "Porfolio Web",
+            "about": "Desarrollo de Portfolio Web Full Stack, como proyecto integrador del programa Argentina programa 4.0.",
+            "start": "2022",
+            "end": "2023",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Camara Espaciadora",
+            "about": "Desarrollo de dispositivo espaciador para la administración inhalable de un medicamento.",
+            "start": "2020",
+            "end": "2021",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Botella MateCaps",
+            "about": "Desarrollo de botella para consumo de infusión de yerba mate.",
+            "start": "2019",
+            "end": "2020",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "1er Puesto Innovaton 2018",
+            "about": "Sistema para la clasificación de Frutas y Verduras desechadas por el mercado central de la ciudad de santa fe.",
+            "start": "2018",
+            "end": "2018",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Finalista Innpacta 2017",
+            "about": "Propuesta “BottleByte” como respuesta a la problematica de la retornabilidad de los enveses de cerveza retornables.",
+            "start": "2017",
+            "end": "2017",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        },
+        {
+            "title": "Publicación catálogo de Innovar 2017",
+            "about": "Propuesta para productores tamberos de la cuenca lechera santafesina y toda la cadena productiva regional.",
+            "start": "2017",
+            "end": "2017",
+
+            "img": "https://github.com/MarcosArguello/PortfolioFrontEnd/blob/main/images/work.png?raw=true"
+        }
     ]
 }

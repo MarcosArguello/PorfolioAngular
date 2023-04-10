@@ -1,113 +1,22 @@
 <!-- Proyectos -->
 
+<section id="projects">
 <div class="container">
     <hr class="featurette-divider">
     <h2>Proyectos</h2>
     <hr class="hr-subdivider">
     
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 box-containerProject">
     
-      <div class="col">
-          <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+      <app-projects-item
+            class="box-skill"
+            *ngFor="let projectItem of projectsList"
+            [projectItem]="projectItem">
+        </app-projects-item>
     
-              <div class="card-body">
-              <h5 class="card-title">Portfolio Web</h5>
-              <p class="card-text">Desarrollo de Portfolio Web Full Stack, como proyecto integrador del programa Argentina programa 4.0.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-primary">Ver proyecto</button>
-                  </div>
-                  <small class="text-muted">Año 2022 / 2023</small>
-              </div>
-              </div>
-          </div>
-          </div>
-          
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-    
-        <div class="card-body">
-          <h5 class="card-title">Camara Espaciadora</h5>
-          <p class="card-text">Desarrollo de  dispositivo espaciador para la administración inhalable de un medicamento.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-primary">Ver proyecto</button>
-            </div>
-            <small class="text-muted">Año 2020 / 2021</small>
-          </div>
-        </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+<hr class="hr-subdivider">
     
-        <div class="card-body">
-          <h5 class="card-title">Botella MateCaps</h5>
-          <p class="card-text">Desarrollo de botella para consumo de infusión de yerba mate.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-primary">Ver proyecto</button>
-            </div>
-            <small class="text-muted">Año 2019 / 2020</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-    
-        <div class="card-body">
-          <h5 class="card-title">1er Puesto Innovaton 2018</h5>
-          <p class="card-text">Sistema para la clasificación de Frutas y Verduras desechadas por el mercado central de la ciudad de santa fe.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-primary">Ver proyecto</button>
-            </div>
-            <small class="text-muted">Año 2018</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-    
-        <div class="card-body">
-          <h5 class="card-title">Finalista Innpacta 2017</h5>
-          <p class="card-text">Propuesta “BottleByte” como respuesta a la problematica de la retornabilidad de los enveses de cerveza retornables.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-primary">Ver proyecto</button>
-            </div>
-            <small class="text-muted">Año 2017</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-    
-        <div class="card-body">
-          <h5 class="card-title">Publicación catálogo de Innovar 2017</h5>
-          <p class="card-text">Propuesta para productores tamberos de la cuenca lechera santafesina y toda la cadena productiva regional.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-primary">Ver proyecto</button>
-            </div>
-            <small class="text-muted">Año 2017</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    </div>
-    
-    <hr class="hr-subdivider">
-    
-    </div>
+</div>
+</section>

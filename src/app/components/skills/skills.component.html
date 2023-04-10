@@ -1,19 +1,20 @@
-<div class="container">
+<!-- Habilidades -->
 
-    <hr class="featurette-divider">
-    
-    <h2>Habilidades</h2>
+<section id="skills">
+    <div class="container">
+        <hr class="featurette-divider">
+        <h2>Habilidades</h2>
+        <hr class="hr-subdivider">
 
-    <hr class="hr-subdivider">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center box-containerSkill">
+        
+            <app-skills-item
+                class="box-skill"
+                *ngFor="let skillArea of skillAreaList"
+                [skillArea]="skillArea">
+            </app-skills-item>
 
-<div class="row row-cols-1 row-cols-md-3 mb-3 text-center box-containerSkill">
-    
-        <app-skills-item
-            class="box-skill"
-            *ngFor="let skillArea of skillAreaList"
-            [skillArea]="skillArea">
-        </app-skills-item>
-
-</div>
-    <hr class="hr-subdivider">
-</div>    
+    </div>
+        <hr class="hr-subdivider">
+    </div>   
+</section> 
