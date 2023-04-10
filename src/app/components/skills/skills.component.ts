@@ -8,18 +8,13 @@ import { PorfolioService } from 'src/app/service/porfolio.service';
 })
 export class SkillsComponent implements OnInit{
 
-  
   skillAreaList:any;
 
-
-  constructor(private datosPorfolio:PorfolioService){
-
-  }
+  constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos().subscribe(data=>{
       this.skillAreaList=data.skills;
     })
   }
-
 }

@@ -3,30 +3,17 @@
     <hr class="featurette-divider">
     
     <h2>Habilidades</h2>
+
     <hr class="hr-subdivider">
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center box-containerSkill">
     
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <ul class="d-flex flex-wrap">
-            <li *ngFor="let areasHabilidades of skillAreaList" class="mx-2">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">{{areasHabilidades.skillArea}}</h4>
-                    </div>
-                    <div class="card-body habilidades-container">
-                        <ul>
-                            <li *ngFor="let habilidad of areasHabilidades.areas">
-                                <div class="habilidades-container">
-                                    <p>{{habilidad.area}}</p>
-                                    <img [src]="habilidad.img" alt="Logo {{habilidad.area}}" class="img-habil">
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> 
-            </li>
-        </ul>     
-    </div>
-    
-    
-      <hr class="hr-subdivider">
+        <app-skills-item
+            class="box-skill"
+            *ngFor="let skillArea of skillAreaList"
+            [skillArea]="skillArea">
+        </app-skills-item>
+
+</div>
+    <hr class="hr-subdivider">
 </div>    

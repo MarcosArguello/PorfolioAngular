@@ -12,4 +12,5 @@ export class PorfolioService {
   obtenerDatos():Observable<any>{
     return this.http.get('./assets/data/data.json');
   }
+
 }

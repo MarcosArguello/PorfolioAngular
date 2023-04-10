@@ -1,0 +1,15 @@
+
+    <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">
+                <span> {{skillArea.skillArea}} </span>
+            </h4>
+        </div>
+        <div class="card-body row row-cols-1 row-cols-md-3">
+            <div class=""
+            *ngFor="let habilidad of skillArea.areas">
+                <span>{{habilidad.area}}</span>
+                <img [src]="habilidad.img" alt="Logo {{habilidad.area}}" class="img-habil">
+            </div>
+        </div>
+    </div>
